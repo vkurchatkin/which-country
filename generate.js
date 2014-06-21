@@ -1,7 +1,5 @@
-var rbush = require('rbush');
 var data = require('./lib/data.geo.json');
-
-var tree = rbush(9, ['.minLng', '.minLat', '.maxLng', '.maxLat']);
+var tree = require('./lib/tree.js')();
 
 function createPolygon (coordinates, country) {
   var coords = coordinates[0];
