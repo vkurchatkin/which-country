@@ -1,0 +1,14 @@
+{
+  "name": "which-country",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Vladimir Kurchatkin <vladimir.kurchatkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "point-in-polygon": "0.0.0"
+  }
+}
