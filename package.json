@@ -1,6 +1,6 @@
 {
   "name": "which-country",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get ISO 3166-1 alpha-3 country code for geographic coordinates",
   "main": "index.js",
   "scripts": {
