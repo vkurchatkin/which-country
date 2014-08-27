@@ -6,9 +6,10 @@
   "scripts": {
     "test": "node test/index.js",
     "generate": "node generate.js > data.json",
-    "postinstall": "npm run generate"
+    "prepublish": "npm run generate"
   },
   "author": "Vladimir Kurchatkin <vladimir.kurchatkin@gmail.com>",
+  "repository": "vkurchatkin/which-country",
   "license": "MIT",
   "dependencies": {
     "point-in-polygon": "0.0.0",
