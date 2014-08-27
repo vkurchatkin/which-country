@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js",
-    "generate": "node generate.js > data.json"
+    "generate": "node generate.js > data.json",
+    "postinstall": "npm run generate"
   },
   "author": "Vladimir Kurchatkin <vladimir.kurchatkin@gmail.com>",
   "license": "MIT",
