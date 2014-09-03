@@ -2,6 +2,9 @@ var L = require('leaflet');
 var wc = require('../');
 var countries = require('world-countries');
 
+require('../node_modules/leaflet/dist/leaflet.css');
+require('./style.css');
+
 var byISO = {};
 
 countries.forEach(function (country) {
