@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node test/index.js",
     "generate": "node generate.js > data.json",
-    "prepublish": "npm run generate"
+    "prepublish": "npm run generate",
+    "rebuild-example": "browserify example/main.js > example/build.js"
   },
   "author": "Vladimir Kurchatkin <vladimir.kurchatkin@gmail.com>",
   "repository": "vkurchatkin/which-country",
@@ -14,5 +15,10 @@
   "dependencies": {
     "point-in-polygon": "0.0.0",
     "rbush": "^1.3.2"
+  },
+  "devDependencies": {
+    "browserify": "^5.11.0",
+    "leaflet": "^0.7.3",
+    "world-countries": "^1.5.0"
   }
 }
