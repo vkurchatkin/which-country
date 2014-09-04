@@ -22,6 +22,10 @@ console.log(wc([-100, 40])); // USA
 console.log(wc([40, -40])); // null, somewhere in Atlantic Ocean
 ```
 
+#Demo
+
+[Demo](http://vkurchatkin.github.io/which-country/) whith leaflet and browserify
+
 # Development
 
 Run tests:
